@@ -413,3 +413,17 @@ mark {
 .wp-block-post-template img[src*="automattic.png"] {
 	width: 220px !important;
 }
+
+.taxonomy-wcb_organizer_team .wp-block-post-terms__separator {
+	visibility: hidden;
+}
+
+.taxonomy-wcb_organizer_team a {
+	border: 1px solid var(--wp--preset--color--accent-3);
+	color: var(--wp--preset--color--accent-3);
+	padding: 2px 8px;
+	border-radius: 8px;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 600 !important;
+}
