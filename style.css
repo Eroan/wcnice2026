@@ -371,7 +371,7 @@ mark {
 }
 
 .wp-block-separator {
-  color: transparent;
+  border-color: transparent !important;
 }
 
 .wp-block-separator::before {
