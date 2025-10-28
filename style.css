@@ -36,6 +36,10 @@ padding-right: 24px !important;
 padding-left: 0 !important;
 border-left: none !important;
 }
+.no-right-deco {
+padding-right: 0 !important;
+border-right: none !important;
+}
 }
 
 @media(min-width: 1334px) {
