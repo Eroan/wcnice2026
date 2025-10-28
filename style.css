@@ -381,3 +381,8 @@ mark {
   height: 39px;
   max-width: 100%;
 }
+
+.wp-block-post-template:has(li.type-wcb_sponsor) img {
+  height: 30px;
+  width: auto;
+}
