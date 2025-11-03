@@ -427,3 +427,51 @@ mark {
 	text-transform: uppercase;
 	font-weight: 600 !important;
 }
+
+/**
+ * Tix ticket module styling.
+ * v1.0 by @dhrrob
+ */
+@media (max-width: 640px) {
+  #tix {
+    overflow-x: scroll;
+  }
+  .tix-mobile-only {
+    display: block !important;
+  }
+}
+.tix-mobile-only {
+  display: none;
+}
+
+#tix table {
+	width: 100%;
+}
+
+#tix th,
+#tix td{
+	text-align: left;
+	padding: 16px 0 !important;
+}
+
+#tix tr:not(:last-child) th,
+#tix tr:not(:last-child) td {
+	border-bottom: 1px solid var(--wp--preset--color--accent-4);
+}
+
+#tix input[type="submit"] {
+	background-color: var(--wp--preset--color--accent-1);
+	border-radius: 8px !important;
+	font-weight: 400;
+    padding: var(--wp--preset--spacing--20) 18px !important;
+    font-size: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.202), 16px) !important;
+    border: 1px solid var(--wp--preset--color--accent-1) !important;
+}
+
+.tix-has-dynamic-receipts {
+	padding-right: var(--wp--style--root--padding-right);
+    padding-left: var(--wp--style--root--padding-left);
+    max-width: var(--wp--style--global--content-size);
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
