@@ -428,10 +428,6 @@ mark {
 	font-weight: 600 !important;
 }
 
-/**
- * Tix ticket module styling.
- * v1.0 by @dhrrob
- */
 @media (max-width: 640px) {
   #tix {
     overflow-x: scroll;
